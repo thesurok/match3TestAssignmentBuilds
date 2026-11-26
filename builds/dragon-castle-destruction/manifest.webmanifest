@@ -1,0 +1,9 @@
+{
+  "name": "Dragon Castle Destruction",
+  "short_name": "Dragon Castle",
+  "display": "fullscreen",
+  "orientation": "portrait",
+  "background_color": "#000000",
+  "theme_color": "#121418",
+  "start_url": "./"
+}
