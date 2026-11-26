@@ -162,6 +162,9 @@ body {
 }
 
 .play-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 100vh;
   height: 100dvh;
   overflow: hidden;
@@ -199,11 +202,12 @@ body {
 }
 
 .stage {
-  width: min(100vw, calc(100vh * 9 / 16));
-  width: min(100vw, calc(100dvh * 9 / 16));
-  height: 100vh;
-  height: 100dvh;
-  margin: 0 auto;
+  --play-pad: 16px;
+  --play-ratio: calc(471 / 1024);
+  width: min(calc(100vw - 2 * var(--play-pad)), calc((100vh - 2 * var(--play-pad)) * var(--play-ratio)));
+  width: min(calc(100vw - 2 * var(--play-pad)), calc((100dvh - 2 * var(--play-pad)) * var(--play-ratio)));
+  height: min(calc(100vh - 2 * var(--play-pad)), calc((100vw - 2 * var(--play-pad)) / var(--play-ratio)));
+  height: min(calc(100dvh - 2 * var(--play-pad)), calc((100vw - 2 * var(--play-pad)) / var(--play-ratio)));
   background: #000;
   box-shadow:
     0 0 0 1px rgba(242, 197, 114, 0.22),
@@ -218,7 +222,7 @@ body {
   background: #000;
 }
 
-@media (orientation: portrait) {
+@media (orientation: portrait) and (pointer: coarse) {
   .stage {
     width: 100vw;
     height: 100vh;
