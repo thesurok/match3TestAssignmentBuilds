@@ -1,0 +1,9 @@
+{
+  "name": "Castle Heist",
+  "short_name": "Castle Heist",
+  "display": "fullscreen",
+  "orientation": "portrait",
+  "background_color": "#000000",
+  "theme_color": "#121418",
+  "start_url": "./"
+}

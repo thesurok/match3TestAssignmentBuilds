@@ -8,4 +8,11 @@ window.BUILDS = [
       "A dragon breaks into King Robert’s castle causing rubble to fall on the stairs blocking a passage towards safety. Fire is slowly spreading, will he be able to survive?",
     cover: "builds/dragon-castle-destruction/cover.jpg",
   },
+  {
+    slug: "castle-heist",
+    name: "Castle Heist",
+    description:
+      "Burglars are trying to loot the castle. The King must defend what is his!",
+    cover: "builds/castle-heist/cover.jpg",
+  },
 ];
