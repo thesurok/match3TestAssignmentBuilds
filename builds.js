@@ -15,4 +15,11 @@ window.BUILDS = [
       "Burglars are trying to loot the castle. The King must defend what is his!",
     cover: "builds/castle-heist/cover.jpg",
   },
+  {
+    slug: "zombies-attack",
+    name: "Zombies Attack",
+    description:
+      "Zombie epidemic is spreading through the kingdom like a plague. Equip your soldiers so they can defend against it",
+    cover: "builds/zombies-attack/cover.jpg",
+  },
 ];

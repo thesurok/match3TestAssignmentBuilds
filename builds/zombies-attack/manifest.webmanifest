@@ -1,0 +1,9 @@
+{
+  "name": "Zombies Attack",
+  "short_name": "Zombies Attack",
+  "display": "fullscreen",
+  "orientation": "portrait",
+  "background_color": "#000000",
+  "theme_color": "#121418",
+  "start_url": "./"
+}
